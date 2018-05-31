@@ -1,0 +1,15 @@
+set -g default-terminal "screen-256color"
+
+set -g status-bg "#00346e"
+set -g status-fg black
+
+setw -g window-status-current-fg white
+setw -g window-status-current-bg red
+setw -g window-status-current-attr bright
+
+set -g status-left-length 400
+set -g status-left "#[bg=green][Session:#S]"
+set -g status-utf8 on
+
+set -g status-right-length 600
+set -g status-right "#[fg=black] #H | #[fg=black]%d %b %R "
