@@ -22,6 +22,8 @@ fi
 
 if which brew > /dev/null; then
     mv -f /tmp/tmux_theme/mac_theme ~/.tmux.conf
+elif which apt-get > /dev/null; then
+    mv -f /tmp/tmux_them/ubuntu_theme ~/.tmux.conf
 else
     mv -f /tmp/tmux_theme/centos_theme ~/.tmux.conf
 fi 
