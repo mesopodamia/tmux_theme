@@ -25,6 +25,6 @@ if which brew > /dev/null; then
 else
     mv -f /tmp/tmux_theme/centos_theme ~/.tmux.conf
 fi 
-echo "安装完毕将自动退出" >> /tmp/vim_install.log
-echo "请耐心等待" >> /tmp/vim_install.log
+echo "安装完毕将自动退出" >> /tmp/tmux_install.log
+echo "请耐心等待" >> /tmp/tmux_install.log
 echo "安装完成"
